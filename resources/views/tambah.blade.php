@@ -44,7 +44,12 @@
 
                 <div class="col-md-4">
                     <label class="form-label">Jenis Produk</label>
-                    <input type="text" class="form-control" placeholder="Input Jenis Produk">
+                    <select class="form-select">
+                        <option selected>Pilih Produk</option>
+                        <option value="Alat tulis">Alat tulis</option>
+                        <option value="Aksesoris">Aksesoris</option>
+                        <option value="Elektronik">Elektronik</option>
+                    </select>
                 </div>
 
             </div>
