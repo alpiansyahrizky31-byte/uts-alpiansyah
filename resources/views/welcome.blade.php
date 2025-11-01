@@ -18,12 +18,24 @@
         </button>
 
     
+
+    
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="produk">produk</a></li>
-
+           
             </ul>
+            <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+            
         </div>
     </nav>
 
